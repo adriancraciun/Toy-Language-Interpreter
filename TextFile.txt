@@ -1,0 +1,45 @@
+ExeStack:
+open(text.txt, var_f)read(var_c, var_f)(If var_c Then read(var_c, var_f)Print(var_c);Else Print(0);) close(var_f)
+open(text.txt, var_f)read(var_c, var_f)(If var_c Then read(var_c, var_f)Print(var_c);Else Print(0);) close(var_f)
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+
+ExeStack:
+open(text.txt, var_f)read(var_c, var_f)
+(If var_c Then read(var_c, var_f)Print(var_c);Else Print(0);) close(var_f)
+open(text.txt, var_f)read(var_c, var_f)(If var_c Then read(var_c, var_f)Print(var_c);Else Print(0);) close(var_f)
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+
+ExeStack:
+open(text.txt, var_f)
+read(var_c, var_f)
+(If var_c Then read(var_c, var_f)Print(var_c);Else Print(0);) close(var_f)
+open(text.txt, var_f)read(var_c, var_f)(If var_c Then read(var_c, var_f)Print(var_c);Else Print(0);) close(var_f)
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+
